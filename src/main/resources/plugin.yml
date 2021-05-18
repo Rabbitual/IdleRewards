@@ -1,0 +1,15 @@
+name: IdleRewards
+main: xyz.rabbitual.idlerewards.IdleRewardsPlugin
+version: 1.0
+api-version: 1.16
+commands:
+  claim:
+    description: Claim your pending idle rewards
+  rewards:
+    description: Shows the status of your pending idle rewards
+  skip:
+    description: Skips the current idle reward timer
+    permission: idlerewards.skip
+permissions:
+  idlerewards.skip:
+    default: op
